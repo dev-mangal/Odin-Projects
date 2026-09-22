@@ -1,9 +1,21 @@
 .alert-msg {
-    color:#d72736;
+    font-size: 40px;
+    color:#ff0000;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid brown;
+    width: 500px;
+    height: 100px;
+    margin-left: 460px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #title {
-    color: #333;
+    color: white;
     font-size: 2em;
     text-align: center;
+    background-color: blue;
+    padding: 20px;
+    margin: 10px;
 }
