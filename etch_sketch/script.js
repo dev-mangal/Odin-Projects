@@ -42,6 +42,7 @@ function createGrid(){
 createGrid();
 
 reset.addEventListener("click", () => {
+    const squares = document.querySelectorAll(".square");
     squares.forEach((square) => {
         square.style.backgroundColor = "rgb(255,255,255)";
         square.style.opacity = "1";
