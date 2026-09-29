@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+#new-book {
+    margin: 10px;
+}
+
+#book-dialog {
+    margin: auto;
+}
+
+.book {
+    border: solid black 5px;
+    min-height: 30%;
+    text-align: center;
+    font-size: large;
+}
+
+.title{
+    padding: 5px;
+}
+
+.pages{
+    font-size: 65%;
+    margin: 2px;
+}
+
+.author{
+    text-align: end;
+    margin-inline: 10px;
+    font-size: 80%;
+}
+
+.read-status{
+    font-size: 80%;
+    margin-block: 5px;
+    background-color: #0369a1;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+    margin-inline: auto ;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.button-container button {
+    flex: 1;
+    padding: 8px 4px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-container button:first-child {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
+
+.button-container button:first-child:hover {
+    background-color: #bae6fd;
+}
+
+.button-container button:last-child {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+.button-container button:last-child:hover {
+    background-color: #fecaca;
+}
